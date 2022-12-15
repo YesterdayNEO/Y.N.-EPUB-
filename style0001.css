@@ -1,0 +1,144 @@
+/*Yesterday自用模板*/
+/*版权没有，翻版不究*/
+/*基础样式*/
+body{margin:0px;padding:0px;text-align:justify;font-style:normal;font-family:zw;}
+p{margin-left:0px;margin-right:0px;line-height:130%;text-align:justify;text-justify:inter-ideograph;text-indent:2em;duokan-text-indent:2em;word-break:break-all;}
+div{margin:0px;padding:0px;line-height:1.2;text-align:justify;}
+td{padding:3px 1px;}
+blockquote{margin:auto 0px;padding:1em;color:#221815;background-color:#fcfaf7;border-radius:10px;}
+a{text-decoration:none;}
+a:hover{background-color:rgba(0, 0, 0, 0.05);}
+a:active{background-color:gold;}
+img{max-width:100%;}
+/*封面样式*/
+.cover{margin:0px;padding:0px;text-indent:0;duokan-text-indent:0;text-align:center  !important;}
+/*标题页相关*/
+.titlepage{margin:0.5em auto;width:25em;max-width:100%;height:30em;}
+.titlepage div{margin:0;text-indent:0;duokan-text-indent:0;line-height:1em;vertical-align:middle;}
+.void{width:0;height:0;color:transparent;background:transparent;display:none;visibility:hidden;margin:0;padding:0;border:none;}
+/*简介及信息页相关*/
+.design-box{padding:5px;margin:15% 10px 0px 10px;border:1px solid #333;background-color:rgba(25, 25, 25, 0.6);}
+.design-box h1{font-family:fs;font-size:100%;color:#f9f9f9;margin:12px auto;text-align:center  !important;text-shadow:0 1px 1px #111;}
+.design-box p{font-family:fs;font-size:85%;color:#e6e6e6;margin:4px auto;}
+.design-box .ovalnote{font-size:80%;color:#E2DA9A;}
+.design-box hr,.auth-box hr{border-style:dashed;border-width:1px 0px 0px 0px;border-color:#a7a7a7;}
+.intro{font-family:fs;}
+.intro h1{text-align:center  !important;font-size:1.6em;color:white;margin:15% 10% 20;padding:0 0 0.2em 0;border-style:solid;border-color:#727272;border-width:0 0 0.06em 0;}
+.intro h1 span{background-color:rgba(25, 25, 25, 0.6);margin:0 0 0 0.1em;padding:0.2em 0.2em 0.1em 0.2em;font-family:fs;}
+.intro p{line-height:1.4em;margin:0 auto 0.3em auto;width:98%;}
+.auth-box{padding:5px;margin:15% 10px 0px 10px;border:1px solid #333;background-color:rgba(25, 25, 25, 0.6);}
+.auth-title1{font-size:90%;font-size:0.8em;font-weight:bold;duokan-text-indent:0em;text-indent:0em;text-align:center  !important;}
+.auth-title{font-size:90%;font-size:1.0em;font-weight:bold;duokan-text-indent:0em;text-indent:0em;text-align:center  !important;}
+.auth-box p{color:#e6e6e6;font-size:80%;text-indent:0em;duokan-text-indent:0em;font-family:fs;margin:4px auto;}
+/*目录页样式*/
+.mulu{text-indent:0em;duokan-text-indent:0em;text-align:left  !important;line-height:0.9em;margin:0.8em 0;}
+.contents{text-indent:0em;duokan-text-indent:0em;text-align:left  !important;padding:0.5em 0 0.5em 0;}
+/*目录颜色*/
+.colorco{color:#000000;}
+.colorg{color:#000000;}
+/*章节标题样式*/
+h1{font-size:1.5em;line-height:120%;text-align:center  !important;text-indent:0em;duokan-text-indent:0em;font-weight:bold;font-family:title1;margin-top:1em;margin-bottom:1.2em;}
+h2{font-size:1.3em;line-height:120%;text-align:left  !important;text-indent:0em;duokan-text-indent:0em;font-weight:bold;font-family:title1;margin-top:1em;margin-bottom:1em;border-bottom:0.1em solid #000;}
+h3{font-size:0.95em;line-height:120%;text-align:center  !important;text-indent:0em;duokan-text-indent:0em;font-weight:bold;margin-top:0.2em;margin-bottom:0.2em;}
+h4{font-size:1.4em;text-align:center  !important;line-height:1.2em;text-indent:0em;duokan-text-indent:0em;font-weight:bold;margin-top:0.2em;margin-bottom:0.2em;}
+h1.chapter-title{margin-top:50%;margin-left:auto;margin-bottom:0;margin-right:auto;line-height:120%;font-size:1.35em;color:#151515;text-align:center  !important;}
+/*小标题样式*/
+.LT{text-indent:0em;duokan-text-indent:0em;text-align:center  !important;font-size:1.2em;font-family:num;}
+/*插图样式*/
+/*多看插图放大*/
+/*<div class="illus duokan-image-single"><img alt="" src="../Images/illus01.jpg"/></div>*/
+.kuan{duokan-bleed:leftright;}
+.zhai{duokan-bleed:lefttopright;}
+.illus{text-indent:0em;duokan-text-indent:0em;text-align:center  !important;/*duokan-bleed:leftright;*/}
+.duokan-image-single{margin:1em 0;text-align:center  !important;}
+/*插图右置*/
+.body-img{float:right;margin-top:auto;margin-left:0.5em;margin-bottom:auto;margin-right:auto;width:35%;clear:both;}
+/*头图样式*/
+div.top{margin:1em 1em 0 0;text-align:right  !important;text-indent:0;duokan-text-indent:0;}
+img.top{width:3em;}
+/*多看画廊*/
+div.duokan-image-gallery{margin:.5em auto;text-indent:0em;text-align:center  !important;}
+div.duokan-image-gallery-cell{text-indent:0em;text-align:center  !important;margin:10px 0;border-style:solid;border-width:1px;box-shadow:5px 5px 5px #888888;}
+div.duokan-image-gallery-cell img{margin:0;width:90%;}
+p.duokan-image-maintitle{margin:1em 0 0.5em 0;font-family:kt;font-size:.9em;text-indent:0;text-align:center  !important;color:#333;line-height:1.25em;}
+/*行间注释样式*/
+/*行间注释写法：<ruby>文本<rt>注音</rt></ruby>*/
+ruby{ruby-align:center;}
+ruby rt{font-size:0.55em;text-align:center  !important;}
+/*下标实心点*/
+.zzh{text-emphasis-style:filled dot;text-emphasis-color:#000;text-emphasis-position:under;-webkit-text-emphasis-color:#000;-webkit-text-emphasis-position:under;-webkit-text-emphasis:filled dot;}
+/*字体样式控制*/
+/*字体加粗*/
+.bold{font-weight:bold;}
+/*字体高度*/
+.font03{font-size:0.3em;}
+.font04{font-size:0.4em;}
+.font05{font-size:0.5em;}
+.font06{font-size:0.6em;}
+.font07{font-size:0.7em;}
+.font075{font-size:0.75em;}
+.font08{font-size:0.8em;}
+.font085{font-size:0.85em;}
+.font09{font-size:0.9em;}
+.font10{font-size:1.0em;}
+.font11{font-size:1.1em;}
+.font115{font-size:1.15em;}
+.font12{font-size:1.2em;}
+.font13{font-size:1.3em;}
+.font14{font-size:1.4em;}
+.font15{font-size:1.5em;}
+.font16{font-size:1.6em;}
+.font17{font-size:1.7em;}
+.font18{font-size:1.8em;}
+.font19{font-size:1.9em;}
+.font20{font-size:2em;}
+.font25{font-size:2.5em;}
+.font30{font-size:3em;}
+.font35{font-size:3.5em;}
+.font40{font-size:4em;}
+/*首行缩进值为0*/
+.in0{text-indent:0em;duokan-text-indent:0em;}
+/*文本居中*/
+.center{text-align:center  !important;text-indent:0em;duokan-text-indent:0em;}
+/*文本居左*/
+.left{text-align:left  !important;duokan-text-indent:0em;text-indent:0em;}
+/*文本居右*/
+.right{text-align:right  !important;text-indent:0em;duokan-text-indent:0em;}
+/*字体颜色*/
+.colorc1{color:#000000;}
+.colorc2{color:#000000;}
+.color1{color:#000000;}
+/*元素控制样式*/
+.tdtop{vertical-align:top;}
+.tdbottom{vertical-align:bottom;}
+.tdmiddle{vertical-align:middle;}
+.tdcenter{margin-left:auto;margin-right:auto;}
+/*浮动控制*/
+.fright{float:right;}
+.fleft{float:left;}
+.fcenter{margin:auto;text-align:center  !important;}
+.cright{clear:right;}
+.cleft{clear:left;}
+.cboth{clear:both;}
+/*预设注释样式*/
+.duokan-footnote{height:1.2em;width:auto;border:0;}
+.duokan-footnote img{height:1em  !important;width:auto;}
+sup{font-size:0.75em;line-height:1.2;vertical-align:super;}
+ol.duokan-footnote-content{padding:10px auto 10px auto;text-align:left  !important;border:1px dashed #366;box-shadow:0 0 0.5em #AAAAAA;}
+li.duokan-footnote-item{margin:0.3em 0.5em 0.3em 0;padding:5px 0;font-family:vuui;list-style-type:none;text-align:left  !important;font-size:90%;line-height:120%;color:#221E21;text-indent:0em;duokan-text-indent:0em;clear:both;}
+li.duokan-footnote-item a{color:#221E21;}
+/*hack for 文石&Kindle*/
+/*@media amzn-kf8{aside{display:none;}}*/
+/*@media (device-aspect-ratio:1680/1264),(device-aspect-ratio:1264/1680){sup{vertical-align:top  !important;}}*/
+/*作者*/
+.zove{font-size:1.05em;text-align:right  !important;font-weight:bold;margin-right:1em;/*font-family:zz;*/}
+/*盒子样式*/
+.textbox{border-style:solid;border-color:#000000;padding:4px 2px;border-width:2px;}
+.s-box{border:solid 2px #EB5277;border-radius:10px;background-color:#FFF;width:22em;padding:5px;box-shadow:1px 1px 2px #c7c7c7;}
+/*背景色*/
+.blue-bg{background-color:#f8f9f9;}
+.bk{background-color:#366145;}
+/*背景图*/
+.bki{background-image:url(../Images/bki.jpg);background-repeat:no-repeat;background-position:middle center;background-size:100% auto;background-attachment:fixed;}
+/*旋转*/
+.rot{-webkit-transform:rotate(15deg);transform:rotate(15deg);}
