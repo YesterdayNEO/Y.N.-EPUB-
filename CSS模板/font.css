@@ -19,7 +19,7 @@
 .zz{font-family:zz;}
 
 /*正文*/
-@font-face{font-family:"zw";src:url("../Fonts/zw.ttf");}
+@font-face{font-family:"zw";src:url("../Fonts/YesterdayNeo.ttf");}
 .zw{font-family:zw;}
 /*注释*/
 @font-face{font-family:"vuui";src:url("../Fonts/vuui.ttf");}
