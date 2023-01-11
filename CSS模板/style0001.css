@@ -2,7 +2,7 @@
 /*版权没有，翻版不究*/
 /*基础样式*/
 body{margin:0px;padding:0px;text-align:justify;font-style:normal;font-family:zw;}
-p{margin-left:0px;margin-right:0px;line-height:130%;text-align:justify;text-justify:inter-ideograph;text-indent:2em;duokan-text-indent:2em;word-break:break-all;}
+p{margin-left:0px;margin-right:0px;line-height:130%;text-align:justify;text-justify:inter-ideograph;text-indent:2em;duokan-text-indent:2em;}
 div{margin:0px;padding:0px;line-height:1.2;text-align:justify;}
 td{padding:3px 1px;}
 blockquote{margin:auto 0px;padding:1em;color:#221815;background-color:#fcfaf7;border-radius:10px;}
